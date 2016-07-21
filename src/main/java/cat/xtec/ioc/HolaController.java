@@ -18,7 +18,7 @@ public class HolaController {
     public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         ModelAndView modelview = new ModelAndView("resposta");
-        modelview.getModelMap().addAttribute("salutacio", "Hola a tothom");
+        modelview.getModelMap().addAttribute("salutacio", "Hola a tothom i més");
         return modelview;
     }
 
